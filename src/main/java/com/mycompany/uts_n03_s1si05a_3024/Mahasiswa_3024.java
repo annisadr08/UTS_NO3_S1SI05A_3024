@@ -11,13 +11,13 @@ package com.mycompany.uts_n03_s1si05a_3024;
  */
 public class Mahasiswa_3024 {
     protected String nim, nama, jurusan;
-    protected int ipk;
+    protected float ipk;
     
     public void tampilDataMhs() {
         System.out.println(" NIM    : " + nim);
-        System.out.println("Nama    " + nama);
-        System.out.println("Jurusan    : " + jurusan);
-        System.out.println("IPK : " + ipk);
+        System.out.println("Nama    :" + nama);
+        System.out.println("Jurusan : " + jurusan);
+        System.out.println("IPK     : " + ipk);
     }
 }
 

@@ -18,8 +18,8 @@ public abstract class AsistenPraktikum_3024 extends Mahasiswa_3024 {
     }
     public void tampilDataAsistenPraktikum() {
         super.tampilDataMhs();
-        System.out.println(" Mata Kuliah    : " + mkAsisten);
-        System.out.println(" Jumlah Pertemuan   : " + jmlPertemuan);
+        System.out.println(" Mata Kuliah      : " + mkAsisten);
+        System.out.println(" Jumlah Pertemuan : " + jmlPertemuan);
         System.out.println(" Total Pendapatan : " + totalPendapatan());
         
         

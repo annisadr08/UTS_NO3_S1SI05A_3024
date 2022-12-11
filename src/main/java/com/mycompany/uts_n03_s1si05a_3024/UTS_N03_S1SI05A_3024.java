@@ -63,7 +63,7 @@ public class UTS_N03_S1SI05A_3024 extends Mahasiswa_3024 {
                 System.out.print("IPK         : ");
                 ss[i].ipk =Integer.parseInt(br.readLine());
                 System.out.print(" Unit Kerja : ");
-                ss[i].unitKerja = Integer.parseInt(br.readLine());
+                ss[i].unitKerja =br.readLine();
                 System.out.print("Jam Kerja   : ");
                 ss[i].jamKerja = Integer.parseInt(br.readLine());
                 System.out.println();

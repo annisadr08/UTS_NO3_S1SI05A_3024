@@ -7,14 +7,13 @@ package com.mycompany.uts_n03_s1si05a_3024;
 /**
  *
  * @author ASUS
+ * ANNISA DWI RAHMAWATI / 21103024 / S1SI05A
  */
 public interface iPendapatan_3024 {
-    public double totalPendapatanSS();
-    public double totalPendapatanAP();
+//    public double totalPendapatanSS();
+//    public double totalPendapatanAP();
     
-    public void tampilPendapatan(){
-        
-    }
+    public double tampilPendapatan();
 //        System.out.println("Pendapatan Asisten Praktikum : "+totalPendapatanAP());
 //        System.out.println("Pendapatan Student Staff : "+totalPendapatanSS());
     
